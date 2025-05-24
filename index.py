@@ -42,7 +42,7 @@ colorir(" ░░░░░░░░░  ░░░░░           ░░░░░
 time.sleep(3)
 
 while True:
-    # limpar()
+    limpar()
     colorir("============", "yellow")
     colorir("[C] Cadastro", "yellow")
     colorir("[L] Login", "yellow")
@@ -81,9 +81,6 @@ while True:
             limpar()
             time.sleep(1)
             print("Olá %s" % nome_check)
-            print(playlist)
-            print(curtidas)
-            print(playlist)
             time.sleep(5)
             usuarios.close()
             break
